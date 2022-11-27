@@ -1,0 +1,38 @@
+
+Commande GIT:
+
+git config —global user.email « adresse e.mail » git con gif —global user.name « Your name »: configuration git
+cd Desktop/nom fichier/: entrer dans un fichier
+cd .. : revenir en arrière
+
+mkdir dossier_name: créer un nouveau dossier
+touch fichier_name: créer un nouveau fichier
+
+git init nom_dossier: initialiser le dossier avec GIT
+git add: ajouter à la phase de stage
+git commit: écrire note
+git commit -m ou -am: écrire une longue note 
+echap + :x ou wq: sortir de git commit
+
+ls: voir fichier répertoire
+git log: afficher l’état courant
+git status: voir status en cours
+
+git rm: supprimer un fichier (penser à le commit)
+
+git branch : questionner et voir la liste de branche
+git nom_branche: créer une branche
+git checkout nom_branche: changer de branche
+
+git push + lien github: push un fichier sur le dépository Github.
+git pull + lien github: pull un fichier sur le dépository Github.
+
+git merge nom_branche: permet de lier les données des deux branches
+  
+
+Reset : 
+git reset (id_commit) —hard: tous les commit suivant seront perdu
+git reset (id_commit) —mixed: permet de revenir juster après le dernier commit ou après celui spécifié
+git reset (id_commit) —soft: permet de voir le code à un instant sans modifier ni supprimer de fichiers
+
+
